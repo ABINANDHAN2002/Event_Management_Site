@@ -99,15 +99,17 @@ PORT=4000
 MONGO_URI=mongodb://localhost:27017/eventDB
 FRONTEND_URI=http://localhost:5173
 ---
-### 3.Start the backend server:
-npm start
-
+###start backend
+node server.js
 ### Server listens on http://localhost:4000
 
 ### 3. Setup Frontend
-cd ../frontend📬 API Endpoint
+cd frontend
+npm install
+npm run dev
 
-### 4.POST /api/v1/message/send
+### 4.API Endpoint
+POST /api/v1/message/send
 Submits contact form data to backend.
 
 Request Body:
