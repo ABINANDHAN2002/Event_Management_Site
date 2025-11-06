@@ -32,7 +32,7 @@ A full-stack **MERN** (MongoDB, Express.js, React.js, Node.js) web application t
 
 ### Backend (Node.js / Express)
 - `express` – web server  
-- `mongoose` – MongoDB ODM  
+- `mongoose` – MongoDB ORM
 - `validator` – for validating email and other fields  
 - `cors` – to allow frontend ↔ backend communication  
 - `dotenv` – for environment variables  
